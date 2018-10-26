@@ -7,6 +7,13 @@ class User_model extends CI_Model
         return $this->db->insert("utilizatori", $data);
     }
 
+    function get_user($username, $parola){
+        $this->db->where('username', $username);
+        $this->db->where('parola', $parola);
+        $query = $this->db->get('utilizatori');
+        return $query->result();
+    }
+
     function update_utilizator($data, $id_user)
     {
         $this->db->where('ID', $id_user);
