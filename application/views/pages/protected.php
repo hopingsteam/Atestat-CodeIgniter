@@ -7,10 +7,11 @@
 			<div class="row d-flex text-center align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<p class="text-white link-nav"><a href="index.html">Acasa </a>
-						<span class="lnr lnr-arrow-right"></span> <a href="elements.html">
-							Inregistreaza</a></p>
+						<span class="lnr lnr-arrow-right"></span> 
+						<a href="elements.html">Pagina protejata</a>
+					</p>
 					<h1 class="text-white">
-						Inregistreaza
+						Pagina protejata
 					</h1>
 				</div>
 			</div>
@@ -27,7 +28,9 @@
 						Pagina protejata
 						<div class="mt-10 text-right">
 							<a href="#" class="genric-btn primary radius">Fain asa</a>
+							<a href="/logout" class="genric-btn primary radius">Logout</a>
 						</div>
+						Rolul: <?=$rol?>
 					</div>
 				</div>
 			</div>

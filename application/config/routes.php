@@ -53,5 +53,11 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['login'] = 'tutorial/login';
+$route['register'] = 'tutorial/register';
+$route['contact'] = 'tutorial/contact';
+$route['dashboard'] = 'tutorial/index';
+$route['logout'] = 'tutorial/logout';
+
 $route['produs/:num'] = 'catalog/cauta_produs';
 $route['produs/:num'] = 'Tutorial/functiaMihai';
